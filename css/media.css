@@ -1,0 +1,19 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: tomato;
+}
+
+@@media print () {
+
+}
+
+
+@media screen and (max-width: 768px) {
+  body {
+    background: papayawhip;
+    font-size: 3em;
+
+  }
+
+}
